@@ -16,3 +16,5 @@ full price. The app is already running in your workspace: try it in the
 2. Fix it, and add or update tests so it can't come back.
 3. Leave a short note in `NOTES.md` explaining the cause and your fix.
 
+When you submit, we run the acceptance checks in `tests/Acceptance` with
+`bash confirm.sh`. You can run them yourself too; changes to them aren't used.

@@ -3,5 +3,9 @@
   "actions": [
     { "label": "Run tests", "command": "php artisan test" },
     { "label": "Fresh database", "command": "php artisan migrate:fresh --seed" }
-  ]
+  ],
+  "verify": {
+    "command": "bash confirm.sh",
+    "restore": ["confirm.sh", "tests/Acceptance", "tests/TestCase.php", "phpunit.xml"]
+  }
 }
