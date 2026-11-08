@@ -1,0 +1,7 @@
+{
+  "app": { "command": "PHP_CLI_SERVER_WORKERS=4 php artisan serve --host=0.0.0.0 --port=8000", "port": 8000, "path": "/" },
+  "actions": [
+    { "label": "Run tests", "command": "php artisan test" },
+    { "label": "Fresh database", "command": "php artisan migrate:fresh --seed" }
+  ]
+}
